@@ -26,7 +26,7 @@ body {
 .img1 {
     grid-area: img1;
     width: 100%;
-    height: 200px;
+    height: auto;
     border-radius: .2rem;
     object-fit: cover;
 }
@@ -34,7 +34,7 @@ body {
 .img2 {
     grid-area: img2;
     width: 100%;
-    height: 200px;
+    height: auto;
     border-radius: .2rem;
     object-fit: cover;
 }
@@ -42,7 +42,7 @@ body {
 .img3 {
     grid-area: img3;
     width: 100%;
-    height: 200px;
+    height: 100%;
     border-radius: .2rem;
     object-fit: cover;
 }
@@ -50,7 +50,7 @@ body {
 .img4 {
     grid-area: img4;
     width: 100%;
-    height: 200px;
+    height: 100%;
     border-radius: .2rem;
     object-fit: cover;
 }
@@ -58,7 +58,7 @@ body {
 .img5 {
     grid-area: img5;
     width: 100%;
-    height: 200px;
+    height: 100%;
     border-radius: .2rem;
     object-fit: cover;
 }
@@ -66,7 +66,7 @@ body {
 .img6 {
     grid-area: img6;
     width: 100%;
-    height: 200px;
+    height: 100%;
     border-radius: .2rem;
     object-fit: cover;
 }
@@ -74,7 +74,7 @@ body {
 .img7 {
     grid-area: img7;
     width: 100%;
-    height: 200px;
+    height: 100%;
     border-radius: .2rem;
     object-fit: cover;
 }
@@ -82,7 +82,7 @@ body {
 .img8 {
     grid-area: img8;
     width: 100%;
-    height: 200px;
+    height: 100%;
     border-radius: .2rem;
     object-fit: cover;
 }
@@ -91,13 +91,13 @@ body {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr .5fr .5fr;
         gap: 1rem;
         padding: 2rem;
 
         grid-template-areas:
             "img1 img1 img2 img2"
-            "img1 img1 img2 img2"
+            /* "img1 img1 img2 img2" */
             "img3 img3 img3 img4"
             "img5 img5 img5 img4"
             "img6 img6 img7 img7"
