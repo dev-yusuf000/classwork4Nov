@@ -82,7 +82,7 @@ body {
     border-radius: .2rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -98,6 +98,83 @@ body {
             "img5 img5 img5 img4"
             "img6 img6 img7 img7"
             "img6 img6 img8 img8";
+        }
+        .img1 {
+            grid-area: img1;
+            width: 100%;
+            height: auto;
+            border-radius: .2rem;
+        }
+
+        .img2 {
+            grid-area: img2;
+            width: 100%;
+            height: auto;
+            border-radius: .2rem;
+        }
+
+        .img3 {
+            grid-area: img3;
+            width: 100%;
+            height: auto;
+            border-radius: .2rem;
+        }
+
+        .img4 {
+            grid-area: img4;
+            width: 100%;
+            height: auto;
+            border-radius: .2rem;
+        }
+
+        .img5 {
+            grid-area: img5;
+            width: 100%;
+            height: auto;
+            border-radius: .2rem;
+        }
+
+        .img6 {
+            grid-area: img6;
+            width: 100%;
+            height: auto;
+            border-radius: .2rem;
+        }
+
+        .img7 {
+            grid-area: img7;
+            width: 100%;
+            height: auto;
+            border-radius: .2rem;
+        }
+
+        .img8 {
+            grid-area: img8;
+            width: 100%;
+            height: auto;
+            border-radius: .2rem;
+        }
+}
+
+
+@media (max-width: 425px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 1rem;
+        padding: 10px;
+        align-items: center;
+
+        grid-template-areas:
+            "img1"
+            "img2"
+            "img3"
+            "img4"
+            "img5"
+            "img6"
+            "img7"
+            "img8";
         }
         .img1 {
             grid-area: img1;
